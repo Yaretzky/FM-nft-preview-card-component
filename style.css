@@ -1,0 +1,86 @@
+/* font-family: "Outfit", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);;
+}
+
+div.wrapper {
+    margin: 0 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    font-size: 26px;
+    color: white;
+    margin-top: 15px;
+}
+
+.wrapper p {
+    /* opacity: 0.6; */
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+div.flex-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+div.flex-group p{
+    margin: 0 0 10px 0;
+}
+
+div.flex-group p img{
+    vertical-align:sub;
+    margin-right: 5px;
+}
+
+div.flex-group p.quantity{
+    color: hsl(178, 100%, 50%);
+}
+
+div.author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+div.author img {
+    width: 15%;
+    height: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+div.author p span {
+    color: white;
+}
+
+@media (min-width: 1440px) {
+    div.wrapper {
+        width: 20%;
+    }
+}
